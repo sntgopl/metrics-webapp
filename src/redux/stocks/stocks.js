@@ -3,7 +3,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 export const getStocks = (payload) => (
   {
     type: 'GET_STOCKS',
-    payload
+    payload,
   }
 );
 
@@ -20,7 +20,6 @@ export const getStock = createAsyncThunk(GET_STOCKS, async () => {
   return response;
 });
 
-
 const stockReducer = (state = initialState, action) => {
   let list = [];
   if (action.type === GET_STOCKS) {
@@ -32,7 +31,7 @@ const stockReducer = (state = initialState, action) => {
       return stock;
     });
     return list;
-  } else return state;
+  } return state;
 };
 
 export default stockReducer;

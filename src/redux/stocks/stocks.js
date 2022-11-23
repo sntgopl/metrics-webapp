@@ -10,7 +10,7 @@ export const getStocks = (payload) => (
 const initialState = [];
 
 export const getStock = createAsyncThunk(GET_STOCKS, async () => {
-  const result = await fetch('https://financialmodelingprep.com/api/v3/profile/AAPL?apikey=6622e5e4f7d591f15bccf177716f9851', {
+  const result = await fetch('https://financialmodelingprep.com/api/v3/stock_market/actives?apikey=6622e5e4f7d591f15bccf177716f9851', {
     method: 'GET',
     headers: {
       'Content-type': 'application/json',
@@ -22,7 +22,7 @@ export const getStock = createAsyncThunk(GET_STOCKS, async () => {
 
 const stockReducer = (state = initialState, action) => {
   let list = [];
-  if (action.type === GET_STOCKS) {
+  if (action.type === 'GET_STOCKS') {
     list = action.payload.map((element) => {
       const stock = {};
       stock.id = element.id;

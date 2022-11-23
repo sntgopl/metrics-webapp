@@ -1,8 +1,10 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
+const GET_STOCKS = 'stocks/GET_STOCKS';
+
 export const getStocks = (payload) => (
   {
-    type: 'GET_STOCKS',
+    type: GET_STOCKS,
     payload,
   }
 );
@@ -22,7 +24,7 @@ export const getStock = createAsyncThunk(GET_STOCKS, async () => {
 
 const stockReducer = (state = initialState, action) => {
   let list = [];
-  if (action.type === 'GET_STOCKS') {
+  if (action.type === GET_STOCKS) {
     list = action.payload.map((element) => {
       const stock = {};
       stock.id = element.id;

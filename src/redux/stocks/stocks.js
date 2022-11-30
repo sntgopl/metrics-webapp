@@ -7,6 +7,7 @@ const Types = {
 export const getStocks = (payload) => (
   {
     type: Types.GET_STOCKS,
+
     payload,
   }
 );
@@ -58,6 +59,7 @@ export const getStock = createAsyncThunk(Types.GET_STOCKS, async () => {
 const stockReducer = (state = initialState, action) => {
   let list = [];
   if (action.type === `${Types.GET_STOCKS}/fulfilled`) {
+
     list = action.payload.map((element) => {
       const stock = {};
       stock.name = element.name;

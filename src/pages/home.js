@@ -12,6 +12,7 @@ const Home = () => {
     if (!stocks.length) {
       dispatch(getStock());
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <Table>

@@ -1,15 +1,16 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Table from 'react-bootstrap';
+import Table from 'react-bootstrap/Table';
 import Stock from '../components/stocks';
 import { getStock } from '../redux/stocks/stocks';
+import './home.css';
 
 const Home = () => {
   const stocks = useSelector((state) => state.stocks);
   const dispatch = useDispatch();
   useEffect(() => {
     if (!stocks.length) {
-      dispatch(getStock);
+      dispatch(getStock());
     }
   }, []);
   return (
@@ -17,10 +18,10 @@ const Home = () => {
       <tbody>
         {stocks.map((stock) => (
           <Stock
-            key={stock.id}
-            id={stock.id}
-            name={stock.id}
-            price={stock.id}
+            key={stock.symbol}
+            symbol={stock.symbol}
+            name={stock.name}
+            price={stock.price}
           />
         ))}
       </tbody>

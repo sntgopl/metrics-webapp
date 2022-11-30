@@ -1,19 +1,19 @@
 import PropTypes from 'prop-types';
 
 const Stock = ({
-  name, price, id,
+  name, price, symbol,
 }) => (
   <tr>
     <td>{name}</td>
     <td>{price}</td>
-    <td>{id}</td>
+    <td>{symbol}</td>
   </tr>
 );
 
 Stock.propTypes = {
   name: PropTypes.node.isRequired,
   price: PropTypes.node.isRequired,
-  id: PropTypes.node.isRequired,
+  symbol: PropTypes.node.isRequired,
 };
 
 export default Stock;

@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 const Stock = ({
   name, price, symbol,
 }) => (
-  <tr>
-    <td>{name}</td>
-    <td>{price}</td>
-    <td>{symbol}</td>
-  </tr>
+  <div className="stock">
+    <p>{name}</p>
+    <p>{price}</p>
+    <p>{symbol}</p>
+  </div>
 );
 
 Stock.propTypes = {

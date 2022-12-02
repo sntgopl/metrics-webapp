@@ -3,7 +3,7 @@ import { StrictMode } from 'react';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import store from '../redux/configureStore';
-import Home from '../pages/Home';
+import Home from '../pages/home';
 import Stock from '../components/stocks';
 import Details from '../components/details';
 import '@testing-library/jest-dom';

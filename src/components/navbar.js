@@ -1,5 +1,5 @@
 const NavBar = () => (
-  <nav>
+  <nav className="nav">
     <div>
       <h1>STOCKS</h1>
     </div>

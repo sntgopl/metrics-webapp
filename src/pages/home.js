@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className="table">
       {stocks.map((stock) => (
-        <NavLink key={stock.symbol} to={`/${stock.symbol}`}>
+        <NavLink key={stock.symbol} className="navlink" to={`/${stock.symbol}`}>
           <div key={stock.symbol}>
             <Stock
               key={stock.symbol}

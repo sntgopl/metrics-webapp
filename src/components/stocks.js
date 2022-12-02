@@ -4,9 +4,13 @@ const Stock = ({
   name, price, symbol,
 }) => (
   <div className="stock">
-    <p>{name}</p>
-    <p>{price}</p>
-    <p>{symbol}</p>
+    <h2>{symbol}</h2>
+    <h4>{name}</h4>
+    <h3>
+      USD$
+      {' '}
+      {price}
+    </h3>
   </div>
 );
 

@@ -13,16 +13,42 @@ const Details = () => {
   const filteredStock = stocks.filter((stock) => (stock.symbol === params.id));
 
   return (
-    <div className="stock">
+    <div className="details">
       <h1>Details</h1>
+      {filteredStock.map((stock) => (
+        <div key={stock.symbol} className="detail-info">
+          <h1>
+            {stock.symbol}
+          </h1>
+          <h3>
+            {stock.name}
+          </h3>
+          <h2>
+            USD$:
+            {' '}
+            {stock.price}
+          </h2>
+          <p>
+            24 hour change:
+            <br />
+            <br />
+            $
+            {' '}
+            {stock.change}
+          </p>
+          <p>
+            Change percentage:
+            <br />
+            <br />
+            {stock.changesPercentage}
+            {' '}
+            %
+          </p>
+        </div>
+      ))}
       <NavLink to="/">
         <button type="button">Home</button>
       </NavLink>
-      {filteredStock.map((stock) => (
-        <div key={stock.symbol}>
-          <h1>{stock.name}</h1>
-        </div>
-      ))}
     </div>
   );
 };

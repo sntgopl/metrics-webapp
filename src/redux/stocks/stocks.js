@@ -12,38 +12,7 @@ export const getStocks = (payload) => (
   }
 );
 
-const initialState = [
-  // {
-  //   id: 1,
-  //   name: 'APPL',
-  //   price: '$59',
-  // },
-  // {
-  //   id: 2,
-  //   name: 'HOLA',
-  //   price: '$77',
-  // },
-  // {
-  //   id: 3,
-  //   name: 'COCA',
-  //   price: '$66',
-  // },
-  // {
-  //   id: 4,
-  //   name: 'SONY',
-  //   price: '$33',
-  // },
-  // {
-  //   id: 5,
-  //   name: 'MSF',
-  //   price: '$44',
-  // },
-  // {
-  //   id: 6,
-  //   name: 'TSL',
-  //   price: '$111',
-  // },
-];
+const initialState = [];
 
 export const getStock = createAsyncThunk(Types.GET_STOCKS, async () => {
   const result = await fetch('https://financialmodelingprep.com/api/v3/stock_market/actives?apikey=6622e5e4f7d591f15bccf177716f9851', {
@@ -64,6 +33,8 @@ const stockReducer = (state = initialState, action) => {
       stock.name = element.name;
       stock.symbol = element.symbol;
       stock.price = element.price;
+      stock.change = element.change;
+      stock.changesPercentage = element.changesPercentage;
       return stock;
     });
     return list;

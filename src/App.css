@@ -1,3 +1,20 @@
+:root {
+  --primary-color: #F2D541;
+  --first-color: #F2B035;
+  --second-color: #D97B29;
+  --third-color: #628C61;
+  --fourth-color: #73461F;
+}
+
 .app {
-  background-color: blueviolet;
+  background-color: var(--primary-color);
+}
+
+.nav {
+  display: flex;
+  width: 99vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--fourth-color);
 }

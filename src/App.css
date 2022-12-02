@@ -8,6 +8,7 @@
 
 .app {
   background-color: var(--fourth-color);
+  min-height: 100vh;
 }
 
 .nav {

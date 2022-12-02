@@ -8,19 +8,19 @@
 [Live](https://space-travelers-lobby.netlify.app)
 
 ## Project view:
-> Rockets page view
+> Home page view
 
-![Screenshot from 2022-11-17 22-59-28](https://user-images.githubusercontent.com/105117832/202614158-6a9c5a34-c865-458a-8d18-a5b7ec479351.png)
-
-
-> Missions page view
-
-![Screenshot from 2022-11-17 22-59-53](https://user-images.githubusercontent.com/105117832/202614178-7ca97e9e-1386-48f7-9ae1-c8ffd9606d9f.png)
+![Screenshot of home page](https://github.com/sntgopl/metrics-webapp/src/images/home.png)
 
 
-> My Profile page view
+> Details page view
 
-![Screenshot from 2022-11-17 23-00-50](https://user-images.githubusercontent.com/105117832/202614199-f23f450d-5c90-4dbf-bfe8-95a50f68f6e0.png)
+![Screenshot of details page](https://github.com/sntgopl/metrics-webapp/src/images/details.png)
+
+
+> Search page view
+
+![Screenshot of search page](https://github.com/sntgopl/metrics-webapp/src/images/search.png)
 
 
 ## Built With
@@ -44,7 +44,7 @@
 ### To clone and run the project locally
 - Copy and run it on your terminal
 ```
-$git clone git@github.com:sntgopl/space-traveler-s-hub.git
+$git clone https://github.com/sntgopl/metrics-webapp.git
 ```
 
 ### Tests
@@ -59,13 +59,6 @@ $git clone git@github.com:sntgopl/space-traveler-s-hub.git
 - GitHub: [@sntgopl](https://github.com/sntgopl)
 - Linkedin: [Santiago Pons Lezica](https://www.linkedin.com/in/santiago-pons-lezica-923747241/)
 
-👤 **David Tamayo**
-
-- GitHub: [@IngDavidTM](https://github.com/IngDavidTM)
-- Twitter: [@David5TM](https://twitter.com/David5TM)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ing-david-tamayo)
-
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -78,9 +71,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Microverse
-- SpaceX API
+🙏 Acknowledgments
+I would like to thank,
+
+[Original Author Behance Link](https://www.behance.net/sakwadesignstudio)
+Thanks to Microverse for the knowledge impacted
+Thanks to my colleagues [Abubakar Ummar](https://github.com/Haywayaheadshot)
 
 ## 📝 License
 

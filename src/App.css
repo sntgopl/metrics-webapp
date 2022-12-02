@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #f2d541;
+  --first-color: #f2b035;
+  --second-color: #d97b29;
+  --third-color: #628c61;
+  --fourth-color: #101010;
+}
+
+.app {
+  background-color: var(--fourth-color);
+  min-height: 100vh;
+}
+
+.nav {
+  display: flex;
+  width: 99vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--primary-color);
+}

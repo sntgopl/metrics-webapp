@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #f2d541;
+  --first-color: #f2b035;
+  --second-color: #d97b29;
+  --third-color: #628c61;
+  --fourth-color: #101010;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navlink {
+  text-decoration: none;
+  color: var(--fourth-color);
+}
+
+.searchbar {
+  margin: 1rem;
+  height: 2rem;
+  min-width: 60vh;
+  padding: 0.3rem;
+  background-color: var(--fourth-color);
+  color: var(--first-color);
+  font-size: 1rem;
+  border: 1px outset var(--first-color);
+  box-shadow: -3px -3px 3px var(--first-color);
+}
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.stock {
+  border: 1px ridge var(--second-color);
+  color: var(--first-color);
+  box-shadow: -5px -5px 5px var(--first-color);
+  width: 43vw;
+  height: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.details {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--first-color);
+}
+
+.detail-info {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vh;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--foruth-color);
+  border: 1px ridge var(--first-color);
+  border-radius: 2rem;
+  box-shadow: -10px -10px 10px var(--first-color);
+  text-align: center;
+}
+
+button {
+  min-width: 5rem;
+  height: 2rem;
+  background-color: var(--fourth-color);
+  color: var(--first-color);
+  border: 1px outset var(--first-color);
+  border-radius: 0.2rem;
+  box-shadow: -5px -5px 5px var(--first-color);
+}

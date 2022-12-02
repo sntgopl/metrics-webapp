@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stock-Metric
 
-## Available Scripts
+> We built a webpage with React & Redux where you can be up to date on the stock market via Financial Modelling API.
 
-In the project directory, you can run:
+### Live GitHub Page
+[Live](https://space-travelers-lobby.netlify.app)
 
-### `npm start`
+## Project view:
+> Home page view
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Screenshot of home page](https://github.com/sntgopl/metrics-webapp/src/images/home.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+> Details page view
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot of details page](https://github.com/sntgopl/metrics-webapp/src/images/details.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Search page view
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot of search page](https://github.com/sntgopl/metrics-webapp/src/images/search.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Built With
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML
+- CSS
+- JavaScript
+- React
+- React router DOM
+- Redux
+- Webpack
+- Jest
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### To get a local copy and running the page follow these simple example steps:
+- Click the Code button in the top right corner
+- Download ZIP
+- Unzip the file: space-traveler-s-hub.zip
+- Open index.html with your web browser
+### To clone and run the project locally
+- Copy and run it on your terminal
+```
+$git clone https://github.com/sntgopl/metrics-webapp.git
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Tests
+- `Webhint`
+- `Stylelint`
+- `ESlint`
+- `Lighthouse`
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Santiago's**
+- GitHub: [@sntgopl](https://github.com/sntgopl)
+- Linkedin: [Santiago Pons Lezica](https://www.linkedin.com/in/santiago-pons-lezica-923747241/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to check the [issues page](../../issues/).
 
-### Analyzing the Bundle Size
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+🙏 Acknowledgments
+I would like to thank,
 
-### Advanced Configuration
+[Original Author Behance Link](https://www.behance.net/sakwadesignstudio)
+Thanks to Microverse for the knowledge impacted
+Thanks to my colleagues [Abubakar Ummar](https://github.com/Haywayaheadshot)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 License
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./LICENSE) licensed.

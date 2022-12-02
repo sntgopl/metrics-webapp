@@ -15,19 +15,27 @@ const Home = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <div className="table">
-      {stocks.map((stock) => (
-        <NavLink key={stock.symbol} className="navlink" to={`/${stock.symbol}`}>
-          <div key={stock.symbol}>
-            <Stock
-              key={stock.symbol}
-              symbol={stock.symbol}
-              name={stock.name}
-              price={stock.price}
-            />
-          </div>
-        </NavLink>
-      ))}
+    <div>
+      <nav className="nav">
+        <div>
+          <h1>STOCKS</h1>
+          <input type="search" placeholder="" />
+        </div>
+      </nav>
+      <div className="table">
+        {stocks.map((stock) => (
+          <NavLink key={stock.symbol} className="navlink" to={`/${stock.symbol}`}>
+            <div key={stock.symbol}>
+              <Stock
+                key={stock.symbol}
+                symbol={stock.symbol}
+                name={stock.name}
+                price={stock.price}
+              />
+            </div>
+          </NavLink>
+        ))}
+      </div>
     </div>
   );
 };

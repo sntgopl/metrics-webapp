@@ -3,7 +3,7 @@
   --first-color: #F2B035;
   --second-color: #D97B29;
   --third-color: #628C61;
-  --fourth-color: #73461F;
+  --fourth-color: #101010;
 }
 
 * {
@@ -24,6 +24,8 @@
 
 .stock {
   border: 1px ridge var(--second-color);
+  color: var(--first-color);
+  box-shadow: -5px -5px 5px var(--first-color);
   width: 43vw;
   height: 9rem;
   display: flex;
@@ -40,7 +42,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color: var(--fourth-color);
+  color: var(--first-color);
 }
 
 .detail-info {
@@ -50,9 +52,9 @@
   width: 50vh;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--first-color);
-  border: 1px ridge var(--second-color);
+  background-color: var(--foruth-color);
+  border: 1px ridge var(--first-color);
   border-radius: 5rem;
-  box-shadow: 10px 10px 10px var(--fourth-color);
+  box-shadow: -10px -10px 10px var(--first-color);
   text-align: center;
 }

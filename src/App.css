@@ -3,11 +3,11 @@
   --first-color: #F2B035;
   --second-color: #D97B29;
   --third-color: #628C61;
-  --fourth-color: #73461F;
+  --fourth-color: #101010;
 }
 
 .app {
-  background-color: var(--primary-color);
+  background-color: var(--fourth-color);
 }
 
 .nav {
@@ -16,5 +16,5 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: var(--fourth-color);
+  color: var(--primary-color);
 }

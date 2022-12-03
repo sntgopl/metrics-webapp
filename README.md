@@ -5,23 +5,7 @@
 > We built a webpage with React & Redux where you can be up to date on the stock market via Financial Modelling API.
 
 ### Live GitHub Page
-[Live](https://space-travelers-lobby.netlify.app)
-
-## Project view:
-> Home page view
-
-![Screenshot of home page](https://drive.google.com/file/d/1-NPXrgY5W9zKAYUbEE1Kj4VJNhDQJu2w/view?usp=share_link)
-
-
-> Details page view
-
-![Screenshot of details page](https://drive.google.com/file/d/1-NPXrgY5W9zKAYUbEE1Kj4VJNhDQJu2w/view?usp=share_link)
-
-
-> Search page view
-
-![Screenshot of search page](https://drive.google.com/file/d/1HUW8u6V0LiXhCOKS0H9vJ8Z41Kqd9P6K/view?usp=share_link)
-
+[Live](https://stometric.netlify.app/)
 
 ## Built With
 
@@ -62,8 +46,6 @@ $git clone https://github.com/sntgopl/metrics-webapp.git
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 

@@ -1,59 +1,76 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Stock-Metric
+<div align="center">
 
-> We built a webpage with React & Redux where you can be up to date on the stock market via Financial Modelling API.
+  <img src="./src/components/images/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-### Live GitHub Page
-[Live](https://stometric.netlify.app/)
 
-## Built With
+</div>
 
-- HTML
-- CSS
-- JavaScript
-- React
-- React router DOM
-- Redux
-- Webpack
-- Jest
+# 📗 Table of Contents
 
-## Getting Started
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [📝 License](#license)
 
-### To get a local copy and running the page follow these simple example steps:
-- Click the Code button in the top right corner
-- Download ZIP
-- Unzip the file: space-traveler-s-hub.zip
-- Open index.html with your web browser
-### To clone and run the project locally
-- Copy and run it on your terminal
-```
-$git clone https://github.com/sntgopl/metrics-webapp.git
-```
+# 📖 Crypto Display Project <a name="about-project"></a>
 
-### Tests
-- `Webhint`
-- `Stylelint`
-- `ESlint`
-- `Lighthouse`
+> You can see the top 5 crytocurrencies and get more information about them when you click on them.
 
-## Authors
+## 🛠 Built With <a name="built-with"></a>
 
-👤 **Santiago's**
-- GitHub: [@sntgopl](https://github.com/sntgopl)
-- Linkedin: [Santiago Pons Lezica](https://www.linkedin.com/in/santiago-pons-lezica-923747241/)
+- **React**
+- **Redux**
+- **Jest**
+- **Linters**
+- **GitFlow**
 
-## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+## 🚀 Live Demo <a name="live-demo"></a>
 
-## Show your support
+- [Live Demo](https://stometric.netlify.app/)
 
-Give a ⭐️ if you like this project!
 
-## Acknowledgments
+## 💻 Getting Started <a name="getting-started"></a>
 
-🙏 Acknowledgments
+To get a local copy up and running, follow these steps.
+
+>### Prerequisites
+ - CMD
+ - Node.js
+>### Setup
+
+- $git clone https://github.com/sntgopl/metrics-webapp.git
+- Access `cd financial-modelling`
+
+
+>### Install
+
+- Write `npm install`
+
+>### Usage
+
+- Execute `npm run`
+
+>### Run tests
+
+- Execute `npm test`
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
 I would like to thank:
 
 - [Original Author Behance Link](https://www.behance.net/sakwadesignstudio)
@@ -62,6 +79,26 @@ I would like to thank:
 
 - Thanks to my colleagues [Abubakar Ummar](https://github.com/Haywayaheadshot)
 
-## 📝 License
+
+## 👥 Author <a name="authors"></a>
+
+👤 **Author**
+
+- GitHub: [@sntgopl](https://github.com/sntgopl)
+- Linkedin: [Santiago Pons Lezica](https://www.linkedin.com/in/santiago-pons-lezica-923747241/)
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## ⭐️ Show your support <a name="support"></a>
+
+> Feel free to contact us if you use this project approach and the project itself.
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p><a name="readme-top"></a>

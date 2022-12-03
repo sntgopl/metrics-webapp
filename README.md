@@ -54,11 +54,13 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 🙏 Acknowledgments
-I would like to thank,
+I would like to thank:
 
-[Original Author Behance Link](https://www.behance.net/sakwadesignstudio)
-Thanks to Microverse for the knowledge impacted
-Thanks to my colleagues [Abubakar Ummar](https://github.com/Haywayaheadshot)
+- [Original Author Behance Link](https://www.behance.net/sakwadesignstudio)
+
+- Thanks to Microverse for the knowledge impacted
+
+- Thanks to my colleagues [Abubakar Ummar](https://github.com/Haywayaheadshot)
 
 ## 📝 License
 

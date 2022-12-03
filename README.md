@@ -10,17 +10,17 @@
 ## Project view:
 > Home page view
 
-![Screenshot of home page](https://drive.google.com/file/d/1-NPXrgY5W9zKAYUbEE1Kj4VJNhDQJu2w/view?usp=sharing)
+![Screenshot of home page](https://drive.google.com/file/d/1-NPXrgY5W9zKAYUbEE1Kj4VJNhDQJu2w/view?usp=share_link)
 
 
 > Details page view
 
-![Screenshot of details page](https://drive.google.com/file/d/1ZieMQp6lBKmOmf1O_oNCY1GVU88r1dWW/view?usp=sharing)
+![Screenshot of details page](https://drive.google.com/file/d/1-NPXrgY5W9zKAYUbEE1Kj4VJNhDQJu2w/view?usp=share_link)
 
 
 > Search page view
 
-![Screenshot of search page](https://drive.google.com/file/d/1HUW8u6V0LiXhCOKS0H9vJ8Z41Kqd9P6K/view?usp=sharing)
+![Screenshot of search page](https://drive.google.com/file/d/1HUW8u6V0LiXhCOKS0H9vJ8Z41Kqd9P6K/view?usp=share_link)
 
 
 ## Built With

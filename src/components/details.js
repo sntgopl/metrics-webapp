@@ -17,6 +17,7 @@ const Details = () => {
       <h1>Details</h1>
       {filteredStock.map((stock) => (
         <div key={stock.symbol} className="detail-info">
+          <img className="image" src={stock.image} alt="Coin Logo" />
           <h1>
             {stock.symbol}
           </h1>
@@ -29,8 +30,14 @@ const Details = () => {
             {stock.price}
           </h2>
           <p>
-            24 hour change:
+            Market Capitalization:
             <br />
+            $
+            {' '}
+            {stock.marketcap}
+          </p>
+          <p>
+            24 hour change:
             <br />
             $
             {' '}
@@ -38,7 +45,6 @@ const Details = () => {
           </p>
           <p>
             Change percentage:
-            <br />
             <br />
             {stock.changesPercentage}
             {' '}

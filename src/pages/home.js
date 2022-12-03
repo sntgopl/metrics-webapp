@@ -34,6 +34,7 @@ const Home = () => {
                 symbol={stock.symbol}
                 name={stock.name}
                 price={stock.price}
+                image={stock.image}
               />
             </div>
           </NavLink>

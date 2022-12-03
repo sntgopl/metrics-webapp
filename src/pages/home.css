@@ -71,6 +71,10 @@
   text-align: center;
 }
 
+.image {
+  height: 10rem;
+}
+
 button {
   min-width: 5rem;
   height: 2rem;

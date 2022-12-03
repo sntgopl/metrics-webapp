@@ -15,7 +15,7 @@ export const getStocks = (payload) => (
 const initialState = [];
 
 export const getStock = createAsyncThunk(Types.GET_STOCKS, async () => {
-  const result = await fetch('https://financialmodelingprep.com/api/v3/stock_market/actives?apikey=6622e5e4f7d591f15bccf177716f9851', {
+  const result = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=30&page=1&sparkline=false&price_change_percentage=1h%2C24h%2C7d', {
     method: 'GET',
     headers: {
       'Content-type': 'application/json',
@@ -31,10 +31,13 @@ const stockReducer = (state = initialState, action) => {
     list = action.payload.map((element) => {
       const stock = {};
       stock.name = element.name;
-      stock.symbol = element.symbol;
-      stock.price = element.price;
-      stock.change = element.change;
-      stock.changesPercentage = element.changesPercentage;
+      stock.symbol = element.symbol.toUpperCase();
+      stock.price = element.current_price;
+      stock.image = element.image;
+      stock.change = element.price_change_24h;
+      stock.marketcap = element.market_cap;
+      stock.changesPercentage = element.price_change_percentage_24h;
+      stock.changesPercentage_7d = element.price_change_percentage_7d_in_currency;
       return stock;
     });
     return list;

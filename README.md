@@ -10,17 +10,17 @@
 ## Project view:
 > Home page view
 
-![Screenshot of home page](https://github.com/sntgopl/metrics-webapp/src/images/home.png)
+![Screenshot of home page](https://drive.google.com/file/d/1-NPXrgY5W9zKAYUbEE1Kj4VJNhDQJu2w/view?usp=sharing)
 
 
 > Details page view
 
-![Screenshot of details page](https://github.com/sntgopl/metrics-webapp/src/images/details.png)
+![Screenshot of details page](https://drive.google.com/file/d/1ZieMQp6lBKmOmf1O_oNCY1GVU88r1dWW/view?usp=sharing)
 
 
 > Search page view
 
-![Screenshot of search page](https://github.com/sntgopl/metrics-webapp/src/images/search.png)
+![Screenshot of search page](https://drive.google.com/file/d/1HUW8u6V0LiXhCOKS0H9vJ8Z41Kqd9P6K/view?usp=sharing)
 
 
 ## Built With

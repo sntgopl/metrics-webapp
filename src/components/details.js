@@ -39,16 +39,26 @@ const Details = () => {
           <p>
             24 hour change:
             <br />
-            $
-            {' '}
-            {stock.change}
+            <p style={{
+              color: stock.change > 0 ? 'green' : 'red',
+            }}
+            >
+              $
+              {' '}
+              {stock.change}
+            </p>
           </p>
           <p>
             Change percentage:
             <br />
-            {stock.changesPercentage}
-            {' '}
-            %
+            <p style={{
+              color: stock.changesPercentage > 0 ? 'green' : 'red',
+            }}
+            >
+              {stock.changesPercentage}
+              {' '}
+              %
+            </p>
           </p>
         </div>
       ))}

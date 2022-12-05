@@ -32,12 +32,12 @@ const stockReducer = (state = initialState, action) => {
       const stock = {};
       stock.name = element.name;
       stock.symbol = element.symbol.toUpperCase();
-      stock.price = element.current_price;
+      stock.price = element.current_price.toFixed(2);
       stock.image = element.image;
-      stock.change = element.price_change_24h;
+      stock.change = element.price_change_24h.toFixed(2);
       stock.marketcap = element.market_cap;
-      stock.changesPercentage = element.price_change_percentage_24h;
-      stock.changesPercentage_7d = element.price_change_percentage_7d_in_currency;
+      stock.changesPercentage = element.price_change_percentage_24h.toFixed(2);
+      stock.changesPercentage_7d = element.price_change_percentage_7d_in_currency.toFixed(2);
       return stock;
     });
     return list;

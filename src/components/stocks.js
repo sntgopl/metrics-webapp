@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { AiOutlineRise, AiOutlineFall } from 'react-icons/ai';
 
 const Stock = ({
   name, price, symbol, change, image,
@@ -22,12 +23,20 @@ const Stock = ({
         gap: '1rem',
       }}
       >
-        USD$
+        USD
         <p style={{
           color: change > 0 ? 'green' : 'red',
         }}
         >
+          $
           {price}
+          {' '}
+          {change > 0 && (
+            <AiOutlineRise />
+          )}
+          {change < 0 && (
+            <AiOutlineFall />
+          )}
         </p>
 
       </h3>

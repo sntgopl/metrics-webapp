@@ -47,6 +47,14 @@
   padding: 1rem;
 }
 
+.imageContainer {
+  height: 6rem;
+}
+
+.imageContainer:hover {
+  height: 8rem;
+}
+
 .details {
   height: 100vh;
   width: 100vw;
@@ -83,4 +91,8 @@ button {
   border: 1px outset var(--first-color);
   border-radius: 0.2rem;
   box-shadow: -5px -5px 5px var(--first-color);
+}
+
+button:hover {
+  box-shadow: -10px -10px 10px var(--first-color);
 }

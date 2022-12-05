@@ -36,30 +36,30 @@ const Details = () => {
             {' '}
             {stock.marketcap}
           </p>
-          <p>
+          <div>
             24 hour change:
             <br />
-            <p style={{
-              color: stock.change > 0 ? 'green' : 'red',
+            <h2 style={{
+              color: stock.changesPercentage > 0 ? 'green' : 'red',
             }}
             >
               $
               {' '}
               {stock.change}
-            </p>
-          </p>
-          <p>
+            </h2>
+          </div>
+          <div>
             Change percentage:
             <br />
-            <p style={{
+            <h2 style={{
               color: stock.changesPercentage > 0 ? 'green' : 'red',
             }}
             >
               {stock.changesPercentage}
               {' '}
               %
-            </p>
-          </p>
+            </h2>
+          </div>
         </div>
       ))}
       <NavLink to="/">

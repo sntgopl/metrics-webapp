@@ -19,12 +19,12 @@ const Home = () => {
   }, [dispatch]);
   return (
     <div>
-      <nav className="nav">
+      <div className="nav">
         <div>
           <h1>STOCKS</h1>
           <input className="searchbar" type="search" placeholder="Search Stock Name" onChange={(e) => setSearch(e.target.value)} />
         </div>
-      </nav>
+      </div>
       <div className="table">
         {featureStock.map((stock) => (
           <NavLink key={stock.symbol} className="navlink" to={`/${stock.symbol}`}>

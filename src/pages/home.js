@@ -38,6 +38,7 @@ const Home = () => {
                 change={stock.change}
                 changesPercentage={stock.changesPercentage}
                 changesPercentage7d={stock.changesPercentage7d}
+                favorite={stock.favorite}
               />
             </div>
           </NavLink>

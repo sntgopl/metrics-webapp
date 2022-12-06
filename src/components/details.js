@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { useParams, NavLink } from 'react-router-dom';
+import { AiFillHeart, AiOutlineHeart } from 'react-icons/ai';
 import { getStock } from '../redux/stocks/stocks';
 
 const Details = () => {
@@ -60,7 +61,16 @@ const Details = () => {
               %
             </h2>
           </div>
+          <div>
+            {stock.favorite && (
+            <AiFillHeart size={30} color="red" />
+            )}
+            {!stock.favorite && (
+            <AiOutlineHeart size={30} color="red" />
+            )}
+          </div>
         </div>
+
       ))}
       <NavLink to="/">
         <button type="button">Home</button>

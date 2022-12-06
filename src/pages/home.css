@@ -33,13 +33,14 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 100vw;
+  margin-left: 2rem;
 }
 
 .stock {
   border: 1px ridge var(--second-color);
   color: var(--first-color);
   box-shadow: -5px -5px 5px var(--first-color);
-  min-width: 49vw;
+  min-width: 44vw;
   max-width: 80vw;
   height: 11rem;
   display: flex;
@@ -47,6 +48,7 @@
   justify-content: space-around;
   align-items: center;
   gap: 2rem;
+  padding: 2rem;
 }
 
 .imageContainer {
